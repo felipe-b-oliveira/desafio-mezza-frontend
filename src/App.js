@@ -1,5 +1,5 @@
 import React from "react";
-import ScopedCssBaseline from "@material-ui/core/ScopedCssBaseline";
+import CssBaseline from "@material-ui/core/CssBaseline";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import Routes from "./routes";
 
@@ -7,11 +7,10 @@ import theme from "./Pages/theme";
 
 const App = () => {
   return (
-    <ScopedCssBaseline>
-      <MuiThemeProvider theme={theme}>
-        <Routes />
-      </MuiThemeProvider>
-    </ScopedCssBaseline>
+    <MuiThemeProvider theme={theme}>
+      <CssBaseline />
+      <Routes />
+    </MuiThemeProvider>
   );
 };
 

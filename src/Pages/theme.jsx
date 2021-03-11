@@ -4,6 +4,10 @@ import { createMuiTheme } from "@material-ui/core/styles";
 // cor da fonte, enfim, estilos aplicados de forma geral na aplicação.
 const theme = createMuiTheme({
   "@global": {
+    body: {
+      margin: 0,
+      padding: 0,
+    },
     ul: {
       margin: 0,
       padding: 10,
