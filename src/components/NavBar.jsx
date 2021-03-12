@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
   toolbar: {
     flexWrap: "wrap",
     justifyContent: "center",
+    minHeight: 54,
   },
   navbarTexts: {
     textTransform: "uppercase",
@@ -84,7 +85,11 @@ export default function NavBar() {
     <AppBar position="static" elevation={0} className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
         <div className={classes.imgContainer}>
-          <img src={logo} alt="logo" className={classes.imgLogo} />
+          <img
+            src={logo}
+            alt="Logotipo PanVel Cosméticos"
+            className={classes.imgLogo}
+          />
         </div>
         <IconButton
           edge="start"
