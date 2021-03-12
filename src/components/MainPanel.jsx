@@ -5,11 +5,11 @@ import { makeStyles } from "@material-ui/core/styles";
 import mainPanelImage from "../assets/img-mainPanel.jpeg";
 import hairSilhouette from "../assets/silhueta-mainPanel.png";
 
-const useStyles = makeStyles((theme) => ({
-  leftPanelContainer: {},
+const useStyles = makeStyles(() => ({
   leftImgContainer: {
     display: "flex",
     justifyContent: "center",
+    backgroundColor: "#fff",
   },
   panelImg: {
     width: 800,
