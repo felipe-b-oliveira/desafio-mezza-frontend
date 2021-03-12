@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+<!-- LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/felipe-b-oliveira/desafio-mezza-frontend">
+    <img src="/docs/Images/icone-panvel.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Panvel Cosméticos</h3>
 
-## Available Scripts
+  <p align="center">
+    Projeto desafio de construção de página simples em React seguindo o layout proposto.
+    <br />
+    <br />
+    <a href="https://github.com/felipe-b-oliveira/desafio-mezza-frontend">Ver Demo</a>
+    ·
+    <a href="https://github.com/felipe-b-oliveira/desafio-mezza-frontend/issues">Reportar Bug</a>
+    ·
+    <a href="https://github.com/felipe-b-oliveira/desafio-mezza-frontend/issues">Requisitar Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- TABELA DE CONTEÚDO -->
+## Tabela de Conteúdo
 
-### `yarn start`
+* [Sobre o Projeto](#sobre-o-projeto)
+  * [Tecnologias](#tecnologias)
+* [Iniciando](#iniciando)
+  * [Pre Requisitos](#pre-requisitos)
+  * [Instalação](#instalação)
+* [Contribuindo](#contribuindo)
+* [Licença](#licença)
+* [Contato](#contato)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- SOBRE O PROJETO -->
+## Sobre os Projetos
+### Busca de Produtos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Projeto referente ao desafio de frontend da Mezza Digital. Projeto realizado em React utilizando o framework de interface Material UI para construção de uma página seguindo o layout proposto no desafio.
 
-### `yarn test`
+![Parte superior da página inicial da PanVel Cosméticos][site-panvel-01]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Parte inferior da página inicial da PanVel Cosméticos][site-panvel-02]
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Lista de principais ferramentas utilizadas no projeto. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [React](https://pt-br.reactjs.org/)
+* [Material UI](https://material-ui.com/)
+* [Yarn](https://yarnpkg.com/)
 
-### `yarn eject`
+<!-- INNICIANDO -->
+## Iniciando
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Instruções de como configurar e executar o projeto localmente.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pre Requisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+O projeto utiliza o Yarn, você pode conferir como instalá-lo em seu sistema aqui:
+[Yarn Installation](https://classic.yarnpkg.com/en/docs/install/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Instalação
 
-## Learn More
+1. Clone o repositório usando o comando abaixo:
+```sh
+git clone https://github.com/felipe-b-oliveira/desafio-mezza-frontend
+```
+2. Acesse a pasta do projeto e dentro da mesma execute o comando: 
+```sh
+yarn install
+```
+3. Execute o comando abaixo para executar o projeto
+```sh
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- CONTRIBUTING -->
+## Contribuindo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuições são muito bem vindas 😎.
 
-### Code Splitting
+1. Faça Fork desse repositório;
+2. Crie uma branch com a sua feature: `git checkout -b feature/MinhaFeature`
+3. Commit suas mudanças: `git commit -m 'feat: Minha nova feature'`
+4. Push a sua branch: `git push origin feature/MinhaFeature`
+5. Abra uma Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- LICENÇA -->
+## Licença
 
-### Analyzing the Bundle Size
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- CONTATO -->
+## Contato
 
-### Making a Progressive Web App
+<p align="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ <a href="https://twitter.com/FelipeOliveir9" target="_blank" >
+     <img alt="Twitter" src="https://img.shields.io/badge/-Twitter-9cf?style=flat-square&logo=Twitter&logoColor=white"></a>
 
-### Advanced Configuration
+  <a href="https://www.linkedin.com/in/felipe-oliveira-417376100/" target="_blank" >
+    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  <a href="mailto:felipe.boliveira@outlook.com" alt="Gmail">
+    <img src="https://img.shields.io/badge/-felipe.boliveira@outlook.com-0078D4?style=flat-square&labelColor=0078D4&logo=gmail&logoColor=white&link=felipe.boliveira@outlook.com"/></a>
 
-### Deployment
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `yarn build` fails to minify
+Feito por **Felipe Oliveira**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[site-panvel-01]: https://github.com/felipe-b-oliveira/desafio-mezza-frontend/blob/main/docs/Images/resolucao_01.jpeg?raw=true
+[site-panvel-02]: https://github.com/felipe-b-oliveira/desafio-mezza-frontend/blob/main/docs/Images/resolucao_02.jpeg?raw=true
